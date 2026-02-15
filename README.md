@@ -35,6 +35,7 @@ Aplikasi ini mendukung penggunaan **local development** maupun **production depl
 
 ## 🧩 Cara Menjalankan Aplikasi Secara Lokal
 
+### ⚙️ Backend (Local)
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/username/learnova.git
@@ -128,3 +129,4 @@ npx expo start
 ```
 
 Buka aplikasi menggunakan Expo Go
+
