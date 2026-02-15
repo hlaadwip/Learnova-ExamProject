@@ -1,0 +1,100 @@
+import { StyleSheet } from 'react-native';
+import { Colors } from './Colors';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.white,
+    paddingHorizontal: 25,
+    paddingTop: 0,
+  },
+  title: {
+    fontFamily: 'Poppins-Bold',
+    fontSize: 28,
+    color: '#000',
+    marginBottom: 0,
+    marginTop: 20,
+  },
+  subtitle: {
+    fontFamily: 'Poppins-Regular',
+    fontSize: 16,
+    color: Colors.gray,
+    marginBottom: 20,
+    lineHeight: 24,
+  },
+  forgotText: {
+    fontFamily: 'Poppins-Medium',
+    fontSize: 14,
+    color: Colors.primary,
+    textAlign: 'right',
+    marginTop: -10,
+    marginBottom: 20,
+  },
+  button: {
+    backgroundColor: Colors.primary,
+    paddingVertical: 15,
+    borderRadius: 15,
+    alignItems: 'center',
+    shadowColor: Colors.primary,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 5,
+  },
+  buttonText: {
+    fontFamily: 'Poppins-SemiBold',
+    fontSize: 16,
+    color: Colors.white,
+  },
+  footer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,    
+  },
+  footerText: {
+    fontFamily: 'Poppins-Regular',
+    fontSize: 14,
+    color: Colors.gray,
+    lineHeight: 20,
+  },
+  footerLink: {
+    fontFamily: 'Poppins-Medium',
+    fontSize: 14,
+    color: Colors.primary,
+    lineHeight: 20,
+    marginLeft: 3,
+  },
+  dividerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 25,
+  },
+  line: {
+    flex: 1,
+    height: 1,
+    backgroundColor: '#E5E7EB',
+  },
+  dividerText: {
+    marginHorizontal: 10,
+    color: '#999',
+    fontSize: 14,
+    fontFamily: 'Poppins-Regular',
+  },
+  socialButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+    borderRadius: 15,
+    height: 56,
+    marginBottom: 15,
+  },
+  socialText: {
+    fontFamily: 'Poppins-SemiBold',
+    fontSize: 14,
+    marginLeft: 10,
+    color: '#000',
+  },
+});
